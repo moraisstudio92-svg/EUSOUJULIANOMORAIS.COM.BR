@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESCOLHAS — Juliano Morais</title>
+<meta name="description" content="ESCOLHAS: você é livre para colher o que plantou. Livro digital de Juliano Morais sobre decisões, propósito e caminhada com Deus.">
+<meta property="og:title" content="ESCOLHAS — Juliano Morais">
+<meta property="og:description" content="Você é livre para colher o que plantou. Livro digital sobre decisões, propósito e caminhada com Deus.">
+<meta property="og:image" content="https://aws-assets.kiwify.com.br/RIfef0bqqTeVH30/capa_escolhas_1a8ddc97fc320f3c5a869fc95a12151f.jpg">
+<meta property="og:url" content="https://eusoujulianomorais.com.br/escolhas">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,500&family=Montserrat:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --bg:#F3EDE2; --bg2:#EAE1D1; --ink:#17140F; --ink2:#4A4236; --gold:#A9803F; --gold-dark:#8A6630;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font-family:'Montserrat',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  .serif{font-family:'Lora',Georgia,serif}
+  .kicker{font-size:13px;font-weight:600;letter-spacing:.32em;text-transform:uppercase}
+  .rule{width:64px;height:2px;background:var(--gold);border:0;margin:20px 0}
+
+  /* Hero */
+  .hero{padding:48px 0 64px}
+  .hero-grid{display:grid;grid-template-columns:1fr;gap:40px;align-items:center}
+  .cover{justify-self:center;width:min(300px,76vw);aspect-ratio:2/3;border-radius:3px;
+    box-shadow:0 2px 4px rgba(60,45,20,.12),0 18px 40px rgba(60,45,20,.22),0 40px 80px rgba(60,45,20,.12)}
+  .cover{container-type:inline-size;overflow:hidden}
+  .bk{position:relative;width:100%;height:100%;background:#F3EDE2;color:#17140F;display:flex;flex-direction:column;align-items:center;padding:10cqw 9.2cqw 9.2cqw;box-sizing:border-box;font-family:'Montserrat',sans-serif}
+  .bk-frame{position:absolute;inset:3.33cqw;border:max(1px,.17cqw) solid rgba(169,128,63,.55)}
+  .bk-author{font-size:3.33cqw;font-weight:600;letter-spacing:1.17cqw;text-transform:uppercase;padding-left:1.17cqw}
+  .bk-rule{width:7.5cqw;height:max(1px,.25cqw);background:#A9803F;margin-top:3.33cqw}
+  .bk-mid{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4.67cqw;width:100%}
+  .bk-seed{width:18.3cqw;height:18.3cqw;color:#A9803F}
+  .bk-title{font-family:'Lora',Georgia,serif;font-weight:700;font-size:13.83cqw;line-height:.9;letter-spacing:.25cqw}
+  .bk-subrow{display:flex;align-items:center;gap:2.33cqw;width:100%;justify-content:center}
+  .bk-line{flex:1;max-width:13.3cqw;height:max(1px,.17cqw);background:#A9803F}
+  .bk-sub{font-family:'Lora',Georgia,serif;font-style:italic;font-weight:500;font-size:4.17cqw;line-height:1.25;text-align:center;color:#3A3328}
+  .bk-foot{font-size:2.33cqw;font-weight:500;letter-spacing:.5cqw;text-transform:uppercase;color:#5A5043;text-align:center}
+  .hero-text{text-align:center}
+  .hero-text .rule{margin:20px auto}
+  h1{font-family:'Lora',Georgia,serif;font-weight:700;font-size:clamp(52px,12vw,96px);line-height:.95;letter-spacing:.02em;margin:14px 0 0}
+  .sub{font-family:'Lora',Georgia,serif;font-style:italic;font-weight:500;font-size:clamp(21px,4.6vw,27px);line-height:1.35;color:var(--ink2);margin:0}
+  .lead{font-size:17px;line-height:1.7;color:var(--ink2);max-width:520px;margin:22px auto 0}
+  .buy{margin-top:32px;display:flex;flex-direction:column;align-items:center;gap:12px}
+  .price{display:flex;align-items:baseline;gap:8px;justify-content:center}
+  .price strong{font-size:40px;font-weight:700;letter-spacing:-.01em}
+  .price span{font-size:14px;color:var(--ink2)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 34px;
+    background:var(--ink);color:#F7F2E8;text-decoration:none;font-weight:600;font-size:16px;letter-spacing:.08em;text-transform:uppercase;border-radius:2px;
+    transition:background .2s, transform .2s}
+  .btn:hover{background:#2c261d;transform:translateY(-1px)}
+  .btn:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+  .note{font-size:13px;color:var(--ink2)}
+
+  /* Sections */
+  section{padding:72px 0}
+  .alt{background:var(--bg2)}
+  h2{font-family:'Lora',Georgia,serif;font-weight:700;font-size:clamp(30px,6vw,42px);line-height:1.15;margin:12px 0 0}
+  .center{text-align:center}
+  .center .rule{margin:20px auto}
+  .intro p{font-family:'Lora',Georgia,serif;font-size:clamp(20px,4.4vw,24px);line-height:1.6;max-width:680px;margin:0 auto;color:var(--ink)}
+  .intro p + p{margin-top:18px;color:var(--ink2)}
+
+  .items{display:grid;grid-template-columns:1fr;gap:16px;margin-top:40px}
+  .item{background:var(--bg);border:1px solid #DDD0B9;padding:28px 26px;border-radius:2px}
+  .item svg{color:var(--gold)}
+  .item h3{font-family:'Lora',Georgia,serif;font-size:22px;margin:14px 0 8px}
+  .item p{margin:0;font-size:15px;line-height:1.65;color:var(--ink2)}
+
+  .quote{max-width:760px;margin:0 auto;text-align:center}
+  .quote blockquote{margin:0;font-family:'Lora',Georgia,serif;font-weight:700;font-size:clamp(26px,5.6vw,38px);line-height:1.3}
+  .quote cite{display:block;margin-top:22px;font-style:normal;font-size:13px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-dark);font-weight:600}
+
+  .author{display:grid;grid-template-columns:1fr;gap:12px;max-width:680px;margin:0 auto;text-align:center}
+  .author p{font-size:17px;line-height:1.75;color:var(--ink2);margin:0}
+  .author a{color:var(--gold-dark);font-weight:600}
+
+  .final{text-align:center}
+  .final .btn{margin-top:28px}
+  .pay{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;margin-top:18px;font-size:13px;color:var(--ink2)}
+
+  footer{padding:36px 0 48px;text-align:center;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink2)}
+
+  @media (min-width:820px){
+    .hero{padding:80px 0 96px}
+    .hero-grid{grid-template-columns:auto 1fr;gap:72px}
+    .cover{width:340px}
+    .hero-text{text-align:left}
+    .hero-text .rule{margin:20px 0}
+    .lead{margin-left:0}
+    .buy{align-items:flex-start}
+    .price{justify-content:flex-start}
+    .items{grid-template-columns:repeat(2,1fr)}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div class="cover" role="img" aria-label="Capa do livro ESCOLHAS, de Juliano Morais">
+      <div class="bk" aria-hidden="true">
+        <div class="bk-frame"></div>
+        <div class="bk-author">Juliano Morais</div>
+        <div class="bk-rule"></div>
+        <div class="bk-mid">
+          <svg class="bk-seed" viewBox="0 0 220 220" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M110 196 V112"/><path d="M110 132 C 86 128 64 108 62 78 C 92 80 108 100 110 132 Z"/><path d="M110 116 C 132 110 152 88 156 58 C 126 62 112 84 110 116 Z"/><path d="M60 196 H160"/><path d="M78 206 H142" opacity="0.5"/></svg>
+          <div class="bk-title">ESCOLHAS</div>
+          <div class="bk-subrow"><span class="bk-line"></span><div class="bk-sub">Você é livre para colher<br>o que plantou</div><span class="bk-line"></span></div>
+        </div>
+        <div class="bk-foot">Decisões · Propósito · Caminhada com Deus</div>
+      </div>
+    </div>
+    <div class="hero-text">
+      <div class="kicker">Juliano Morais</div>
+      <h1>ESCOLHAS</h1>
+      <hr class="rule">
+      <p class="sub">Você é livre para colher o que plantou</p>
+      <p class="lead">A vida que você vive hoje foi construída pelas escolhas de ontem. Este livro é um convite para parar de repetir os mesmos ciclos e aprender a escolher uma vida alinhada com Deus.</p>
+      <div class="buy">
+        <div class="price"><strong>R$ 19,90</strong><span>livro digital em PDF</span></div>
+        <a class="btn" href="https://pay.kiwify.com.br/KOUhleq">Quero o meu
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <span class="note">Pix, cartão ou boleto · pagamento pela Kiwify</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="alt intro">
+  <div class="wrap center">
+    <div class="kicker" style="color:var(--gold-dark)">Antes de escolher o caminho</div>
+    <h2>Entenda quem está escolhendo</h2>
+    <hr class="rule">
+    <p>Todos os dias você planta alguma coisa. Com suas decisões, seus hábitos, aquilo que aceita e aquilo que abandona.</p>
+    <p>Deus te deu liberdade para escolher. Mas toda escolha produz um fruto.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="center">
+      <div class="kicker" style="color:var(--gold-dark)">O que você vai encontrar</div>
+      <h2>30 páginas para repensar suas escolhas</h2>
+      <hr class="rule">
+    </div>
+    <div class="items">
+      <div class="item">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21V11"/><path d="M12 13c-3 0-5-2-5-5 3 0 5 2 5 5z"/><path d="M12 11c0-3 2-5 5-5 0 3-2 5-5 5z"/></svg>
+        <h3>Reflexões diretas</h3>
+        <p>Textos curtos sobre decisões, hábitos e as raízes que fazem a gente repetir os mesmos ciclos.</p>
+      </div>
+      <div class="item">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/><path d="M11 7v6M8 10h6"/></svg>
+        <h3>À luz da Palavra</h3>
+        <p>Cada reflexão é sustentada por versículos, como Gálatas 6:7 e Provérbios 4:23.</p>
+      </div>
+      <div class="item">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/><circle cx="12" cy="12" r="3"/></svg>
+        <h3>Oração final</h3>
+        <p>Uma oração para entregar suas escolhas a Deus e recomeçar quantas vezes for necessário.</p>
+      </div>
+      <div class="item">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13 7l4 4"/></svg>
+        <h3>Exercício prático</h3>
+        <p>Perguntas para você responder com sinceridade: o que deixar, o que começar e o que parar de adiar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap quote">
+    <blockquote>“Você não pode mudar o que já plantou. Mas pode escolher o que vai plantar a partir de agora.”</blockquote>
+    <cite>Trecho de ESCOLHAS</cite>
+  </div>
+</section>
+
+<section>
+  <div class="wrap author">
+    <div class="kicker" style="color:var(--gold-dark)">Sobre o autor</div>
+    <h2>Juliano Morais</h2>
+    <hr class="rule" style="margin:8px auto 12px">
+    <p>Juliano ajuda pessoas a evoluírem emocionalmente, com reflexões de fé e direção para a vida. ESCOLHAS reúne essa mensagem em um livro para ler, reler e aplicar.</p>
+    <p>Acompanhe no Instagram: <a href="https://www.instagram.com/eusoujulianomorais">@eusoujulianomorais</a></p>
+  </div>
+</section>
+
+<section class="alt final">
+  <div class="wrap">
+    <div class="kicker" style="color:var(--gold-dark)">A próxima escolha é sua</div>
+    <h2>Comece a plantar o que você quer colher</h2>
+    <div class="price" style="justify-content:center;margin-top:24px"><strong>R$ 19,90</strong><span>livro digital em PDF</span></div>
+    <a class="btn" href="https://pay.kiwify.com.br/KOUhleq">Quero o meu
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+    <div class="pay"><span>Pix</span><span>Cartão em até 12x</span><span>Boleto</span></div>
+  </div>
+</section>
+
+<footer>ESCOLHAS · Juliano Morais</footer>
+
+</body>
+</html>
